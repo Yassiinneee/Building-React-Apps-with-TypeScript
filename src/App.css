@@ -1,0 +1,159 @@
+/* ===== GLOBAL PAGE STYLE ===== */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Beautiful gradient background */
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+  );
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== MAIN CONTAINER ===== */
+
+.container {
+
+  width: 90%;
+  max-width: 500px;
+
+  background-color: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+}
+
+/* ===== TITLE STYLE ===== */
+
+.title {
+
+  font-size: 32px;
+
+  color: #0f172a;
+
+  margin-bottom: 25px;
+}
+
+/* ===== GREETING STYLE ===== */
+
+.greeting {
+
+  font-size: 24px;
+
+  color: #2563eb;
+
+  font-weight: bold;
+
+  margin-bottom: 30px;
+}
+
+/* ===== COUNTER TEXT ===== */
+
+.counter-text {
+
+  font-size: 22px;
+
+  color: #111827;
+
+  margin-bottom: 20px;
+}
+
+/* ===== BUTTON STYLE ===== */
+
+button {
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+  );
+
+  color: white;
+
+  border: none;
+
+  padding: 14px 28px;
+
+  font-size: 18px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+
+button:hover {
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* Click Effect */
+
+button:active {
+
+  transform: scale(0.95);
+}
+
+/* ===== HORIZONTAL LINE ===== */
+
+hr {
+
+  margin: 30px 0;
+
+  border: none;
+
+  height: 2px;
+
+  background-color: #e5e7eb;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+@media (max-width: 600px) {
+
+  .container {
+
+    padding: 25px;
+  }
+
+  .title {
+
+    font-size: 26px;
+  }
+
+  .greeting {
+
+    font-size: 20px;
+  }
+
+  .counter-text {
+
+    font-size: 18px;
+  }
+
+  button {
+
+    width: 100%;
+  }
+}
